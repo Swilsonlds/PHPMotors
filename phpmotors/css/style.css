@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+   
+   *, *:before, *:after{
+    box-sizing: inherit;
+}
+
+* {
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+}
+
+form {
+    margin: 20px;
+}
+
+.no-account {
+    margin-left: 20px;
+    
+}
+
+p a{
+    text-decoration: underline;
+}
+
+.form-submit {
+    margin: 20px 0px;
+    padding: 5px;
+    background-color: #6ca9df;
+    color: black;
+}
+
+.form-submit:hover {
+    background-color:#33648e;
+    color: white;
+}
+
+form input {
+    margin-bottom: 10px;    
+}
+
+.registration-error{
+    margin-left: 20px;
+    color: rgb(141, 2, 2);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.myAccount {
+    margin: 20px 6%;
+}
+
+.welcome-message {
+    margin: 20px 6%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    list-style: none;
+    padding: 15px 10px;
+}
+
+nav ul li a{
+    color: white;
+    padding: 6px;
+    height: 100%;
+}
+
+nav ul li a:hover{
+    color: #3a3a3a;
+    background-color: #4c96d7;
+}
+
+main {
+    width: 100%;
+}
+
+.car-box {
+    position: relative;
+}
+
+.car-box p {
+    margin: 0px;
+}
+
+.car-box h2 {
+    margin: 0px;
+}
+
+.button-box {
+    position: absolute;
+    top: 0px;
+    left: 2.5em;
+    color: #4c96d7;
+    background-color: rgba(255,255,255,0.75);
+}
+
+.button-box button{
+    display: none;
+}
+
+.car-picture {
+    width: 100%;
+}
+
+.customer-reviews {
+    margin: 2em 1em;
+}
+
+.customer-reviews ul li {
+    margin: 1em;
+}
+.upgrade-wrapper {
+    margin: 2em 1em;
+}
+
+.delorean-upgrades {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.little-button{
+    display: block;
+    margin: 1.5em auto;
+    width: 50%;
+    height: 2em;
+    opacity: 100;
+    color: black;
+    font-size: 1.5em;
+    background-color: #4c96d7;
+}
+
+.upgrade {
+    width: 50%;
+}
+
+.upgrade img {
+    display: inline;
+    margin: auto;
+}
+
+.upgrade-box {
+    background-color: #4c96d7;
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    margin: .5em;
+}
+
+h1 {
+    font-size: 1.5em;
+    padding-left: 20px;
+}
+
+.sorry {
+    padding-left: 20px;
+}
+
+footer {
+    padding: 10px;
+    border-top: 5px solid black;
+}
+
+footer p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: .75em;
+
+}
+
+/* Vehicle Management */
+.vehicle-management-main a{
+    color: #356a99;
+    text-decoration: underline;
+}
+
+.vehicle-controller{
+    padding-left: 20px;
+}
+
+.left-indent{
+    margin-left: 20px;
+}
+
+.classSelector{
+    margin-bottom: 20px;
+}
+
+/* Add Vehicle */
+.add-vehicle-main select{
+    width: 10.4rem;
+    margin-bottom: 10px;
+}
+
+.vehicle-added{
+    color: green;
+    margin-left: 20px;
+}
+
+.success{
+    color: green;
+}
+
+/* Styling for invalid form input */
+input:required:invalid, input:focus:invalid {
+    color: red;    
+}
+
+.pass-span{
+    font-size: .75em;
+}
+
+/* Inventory Display */
+#inv-display{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+   }
+   
+   #inv-display li{
+    margin-bottom: 1em;
+    margin-left: 20px;
+    border: 1px solid rgb(152, 152, 152);
+    list-style-type: none;
+    flex: 1 1 auto;
+    max-width: 70%;
+    background-color: #d8dcdf;
+   }
+   
+   #inv-display li img {
+       max-width: 90%;
+       margin-left: 10px;
+       margin-top: 10px;
+   }
+
+   #product-photo{
+    display: block;
+    max-width: 75%;
+    margin-left: 20px;
+
+}
+
+.classification-h1{
+    margin-bottom: 20px;
+}
+
+#inv-display li h2{
+    margin-left: 10px;
+}
+
+#inv-display li span{
+    margin-left: 10px;
+}
+
+.fieldset-image{
+    margin: 20px 0px;
+}
+
+.block-class{
+    display: block;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.error{
+    color: rgb(80, 1, 1);
+}
+
+.success{
+    color: rgb(2, 95, 2);
+}
+
+.review-login-link{
+    color: rgb(59, 59, 185);
+}
+
+textarea{
+    width: 60%;
+    height: 10em;
+}
+
+.review-list-item{
+    background-color: rgb(241, 240, 240);
+    border: 1px solid black;
+    margin: 20px;
+    max-width: 60%;
+}
+
+.review-list{
+    list-style-type: none;
+    padding: 0px;
+    padding-left: 0pt
+}
+
+.mod-del{
+    margin: 10px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.review{
+    margin: 10px;
+}
+
+.delete-button{
+    display: block;
+    margin-top: 20px;
+}

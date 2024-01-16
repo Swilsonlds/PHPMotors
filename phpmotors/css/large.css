@@ -1,0 +1,109 @@
+@media (min-width: 650px) {
+
+*{
+    font-size: 20px;
+}
+
+body {
+    /* background-image: url(../images/site/checkerboard.jpg); */
+    background-color: #bababa;
+    background-size: 100%;
+}
+
+.wrapper {
+    background-color: white;
+    max-width: 80%;
+    margin: 15px auto;
+    border: 6px solid #4c96d7;
+
+}
+
+.button-box {
+    position: absolute;
+    top: 1.5em;
+    left: 2.5em;
+    padding: 5px;
+}
+
+.button-box button {
+    display: inline;
+    margin: .25em auto;
+    opacity: 100;
+    color: black;
+    background-color: #4c96d7;
+
+}
+
+.little-button {
+    display: none;
+}
+
+.button-box p {
+    font-size: 1.25em;
+}
+
+.button-box h2 {
+    font-size: 1.25em;
+}
+
+nav ul {
+    background-color: #3a3a3a;
+}
+
+nav ul li a {
+    font-size: 22px;
+    padding: 12px 16px;
+}
+
+h1 {
+    font-size: 1.75em;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+.reviews-and-upgrades {
+    display: flex;
+}
+
+/* For vehicle display in classification view */
+#inv-display {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#inv-display h2{
+    font-size: 1rem;
+}
+
+#inv-display li {
+    max-width: 200px;
+    flex: 1 0 auto;
+    text-align: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(147, 146, 146);
+}
+
+   
+#inv-display li img {
+    max-width: 90%;
+    margin-left: 0px;
+    margin-top: 10px;
+    border: 1px solid rgb(147, 146, 146);
+}
+  
+#inv-display div {
+    width: 100%;
+}
+
+#product-photo{
+    display: block;
+    max-width: 60%;
+    margin-left: 20px;
+    border: 1px solid rgb(86, 86, 86);
+
+   }
+
+}
