@@ -13,13 +13,6 @@ require_once '../model/reviews-model.php';
 $classifications = getClassifications();
 $navList = createNavList($classifications);
 
-if(isset($_SESSION['clientData'])){
-
-}
-
-
-
-
 $action = filter_input(INPUT_POST, 'action');
  if ($action == NULL){
   $action = filter_input(INPUT_GET, 'action');
